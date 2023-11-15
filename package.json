@@ -1,0 +1,19 @@
+{
+  "name": "shoppe-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "package": "node ./build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "unknown",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "playwright": "^1.39.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
